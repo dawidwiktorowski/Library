@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Library implements Serializable {
 
     private static final int INITIAL_CAPACITY = 1;
-    private int publicationsNumber;
+    private int publicationsNumber = 0;
     private Publication[] publications = new Publication[INITIAL_CAPACITY];
 
     public Publication[] getPublications() {
@@ -38,8 +38,8 @@ public class Library implements Serializable {
             }
         }
 
-        if(found != notFound){
-            System.arraycopy(publications,found + 1, publications,found, publications.length - found - 1);
+        if (found != notFound) {
+            System.arraycopy(publications, found + 1, publications, found, publications.length - found - 1);
             publicationsNumber--;
             publications[publicationsNumber] = null;
         }

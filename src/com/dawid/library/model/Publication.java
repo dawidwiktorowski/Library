@@ -14,7 +14,7 @@ public abstract class Publication implements Serializable, Comparable<Publicatio
         this.year = year;
     }
 
-    int getYear() {
+   public int getYear() {
         return year;
     }
 
@@ -22,7 +22,7 @@ public abstract class Publication implements Serializable, Comparable<Publicatio
         this.year = year;
     }
 
-    String getTitle() {
+   public String getTitle() {
         return title;
     }
 

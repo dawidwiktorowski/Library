@@ -12,7 +12,9 @@ import com.dawid.library.model.Book;
 import com.dawid.library.model.Library;
 import com.dawid.library.model.Magazine;
 import com.dawid.library.model.Publication;
+import com.dawid.library.model.comparator.AlphabeticalTitleComparator;
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
 
 class LibraryControl {
@@ -117,8 +119,7 @@ class LibraryControl {
     }
 
     private void printBooks() {
-        Publication[] publications = library.getPublications();
-
+        Publication[] publications = getSortedPublications();
         printer.printBooks(publications);
     }
 
@@ -146,8 +147,14 @@ class LibraryControl {
     }
 
     private void printMagazines() {
-        Publication[] publications = library.getPublications();
+        Publication[] publications = getSortedPublications();
         printer.printMagazines(publications);
+    }
+
+    private Publication[] getSortedPublications() {
+        Publication[] publications = library.getPublications();
+        Arrays.sort(publications, new AlphabeticalTitleComparator());
+        return publications;
     }
 
     private void exit() {
