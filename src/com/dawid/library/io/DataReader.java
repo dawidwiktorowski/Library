@@ -1,6 +1,8 @@
 package com.dawid.library.io;
 
 import com.dawid.library.model.Book;
+import com.dawid.library.model.Library;
+import com.dawid.library.model.LibraryUser;
 import com.dawid.library.model.Magazine;
 
 import java.util.Scanner;
@@ -61,6 +63,16 @@ public class DataReader {
         int day = getInt();
 
         return new Magazine(title, publisher, language, year, month, day);
+    }
+
+    public LibraryUser createLibraryUser() {
+        printer.printLine("Imię");
+        String firstName = sc.nextLine();
+        printer.printLine("Nazwisko");
+        String lastName = sc.nextLine();
+        printer.printLine("PESEL");
+        String pesel = sc.nextLine();
+        return new LibraryUser(firstName, lastName, pesel);
     }
 
 }

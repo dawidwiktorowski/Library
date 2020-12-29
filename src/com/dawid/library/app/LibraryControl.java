@@ -1,20 +1,12 @@
 package com.dawid.library.app;
 
-import com.dawid.library.exception.DataExportException;
-import com.dawid.library.exception.DataImportException;
-import com.dawid.library.exception.InvalidDataEsception;
-import com.dawid.library.exception.NoSuchOptionException;
+import com.dawid.library.exception.*;
 import com.dawid.library.io.ConsolePrinter;
 import com.dawid.library.io.DataReader;
 import com.dawid.library.io.file.FileManager;
 import com.dawid.library.io.file.FileManagerBuilder;
-import com.dawid.library.model.Book;
-import com.dawid.library.model.Library;
-import com.dawid.library.model.Magazine;
-import com.dawid.library.model.Publication;
-import com.dawid.library.model.comparator.AlphabeticalTitleComparator;
+import com.dawid.library.model.*;
 
-import java.util.Arrays;
 import java.util.InputMismatchException;
 
 class LibraryControl {
@@ -61,6 +53,12 @@ class LibraryControl {
                 case DELETE_MAGAZINE:
                     deleteMagazine();
                     break;
+                case ADD_USER:
+                    addUser();
+                    break;
+                case PRINT_USERS:
+                    printUsers();
+                    break;
                 case EXIT:
                     exit();
                     break;
@@ -68,6 +66,19 @@ class LibraryControl {
                     printer.printLine("Nie ma takiej opcji, wprowadź ponownie: ");
             }
         } while (option != Option.EXIT);
+    }
+
+    private void printUsers() {
+        printer.printUsers(library.getUsers().values());
+    }
+
+    private void addUser() {
+        LibraryUser libraryUser = dataReader.createLibraryUser();
+        try {
+            library.addUser(libraryUser);
+        } catch (UserAlReadyExistsException e) {
+            printer.printLine(e.getMessage());
+        }
     }
 
     private Option getOption() {
@@ -108,19 +119,18 @@ class LibraryControl {
     private void deleteBook() {
         try {
             Book book = dataReader.readAndCreateBook();
-            if(library.removePublication(book))
+            if (library.removePublication(book))
                 printer.printLine("Usunięto książke");
             else
                 printer.printLine("Brak wskazanej książki");
-        }catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             printer.printLine("Nie udało się usunąć książki, niepoprawne dane");
         }
 
     }
 
     private void printBooks() {
-        Publication[] publications = getSortedPublications();
-        printer.printBooks(publications);
+        printer.printBooks(library.getPublications().values());
     }
 
     private void addMagazine() {
@@ -137,24 +147,17 @@ class LibraryControl {
     private void deleteMagazine() {
         try {
             Magazine magazine = dataReader.readAndCreateMagazine();
-            if(library.removePublication(magazine))
+            if (library.removePublication(magazine))
                 printer.printLine("Usunięto magazyn");
             else
                 printer.printLine("Brak wskazanego magazynu");
-        }catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             printer.printLine("Nie udało się usunąć magazynu, niepoprawne dane");
         }
     }
 
     private void printMagazines() {
-        Publication[] publications = getSortedPublications();
-        printer.printMagazines(publications);
-    }
-
-    private Publication[] getSortedPublications() {
-        Publication[] publications = library.getPublications();
-        Arrays.sort(publications, new AlphabeticalTitleComparator());
-        return publications;
+        printer.printMagazines(library.getPublications().values());
     }
 
     private void exit() {
@@ -171,11 +174,13 @@ class LibraryControl {
     private enum Option {
         EXIT(0, "Wyjście z programu"),
         ADD_BOOK(1, "Dodanie książki"),
-        ADD_MAGAZINE(2,"Dodanie magazynu/gazety"),
+        ADD_MAGAZINE(2, "Dodanie magazynu/gazety"),
         PRINT_BOOKS(3, "Wyświetlenie dostępnych książek"),
         PRINT_MAGAZINES(4, "Wyświetlenie dostępnych magazynów/gazet"),
-        DELETE_BOOK(5,"Usuń książkę"),
-        DELETE_MAGAZINE(6,"Usuń magazyn");
+        DELETE_BOOK(5, "Usuń książkę"),
+        DELETE_MAGAZINE(6, "Usuń magazyn"),
+        ADD_USER(7, "Dodaj czytelnika"),
+        PRINT_USERS(8, "Wyświetl czytelnika");
 
         private int value;
         private String description;
@@ -193,7 +198,7 @@ class LibraryControl {
         static Option createFromInt(int option) throws NoSuchOptionException {
             try {
                 return Option.values()[option];
-            } catch(ArrayIndexOutOfBoundsException e) {
+            } catch (ArrayIndexOutOfBoundsException e) {
                 throw new NoSuchOptionException("Brak opcji o id " + option);
             }
         }
