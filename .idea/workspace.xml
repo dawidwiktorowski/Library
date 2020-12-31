@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6860c67-c182-4a8b-a904-c8383b25236a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dawid/library/exception/PublicationAlReadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dawid/library/exception/UserAlReadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dawid/library/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +40,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Publication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#516#517#0" expanded="true" />
@@ -72,14 +77,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -119,7 +133,6 @@
         <option value="$PROJECT_DIR$/Library.csv" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalComparator.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalTitleComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/comparator/DateComparator.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/exception/PublicationAlReadyExistsException.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/exception/UserAlReadyExistsException.java" />
@@ -128,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java" />
+        <option value="$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java" />
+        <option value="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/User.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" />
       </list>
@@ -144,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,7 +253,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -346,7 +361,8 @@
       <workItem from="1608501274114" duration="274000" />
       <workItem from="1608577602392" duration="2000" />
       <workItem from="1608639034905" duration="332000" />
-      <workItem from="1609228826529" duration="4994000" />
+      <workItem from="1609228826529" duration="5585000" />
+      <workItem from="1609405513561" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="adding new functionality">
       <created>1607725768219</created>
@@ -359,7 +375,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49199000" />
+    <option name="totallyTimeSpent" value="50410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +390,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.3033557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.30738255" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.28322148" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -560,16 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Publication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/exception/PublicationAlReadyExistsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -671,10 +677,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Publication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="476">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />
@@ -687,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="420">
+          <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
