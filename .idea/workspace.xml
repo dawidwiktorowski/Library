@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6860c67-c182-4a8b-a904-c8383b25236a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Library.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/io/ConsolePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/io/ConsolePrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/io/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/io/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/io/file/CsvFileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/io/file/CsvFileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/model/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/model/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/model/Publication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/model/Publication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +45,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Library.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java">
+        <entry file="file://$PROJECT_DIR$/Library_user.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+            <state relative-caret-position="34">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4254#4255#0" expanded="true" />
+                <element signature="e#4354#4355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalTitleComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,40 +111,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Publication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Library.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -130,21 +159,23 @@
         <option value="$PROJECT_DIR$/src/com/dawid/library/exception/InvalidDataEsception.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/Book.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/Magazine.java" />
-        <option value="$PROJECT_DIR$/Library.csv" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalComparator.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalTitleComparator.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/comparator/DateComparator.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/exception/PublicationAlReadyExistsException.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/exception/UserAlReadyExistsException.java" />
-        <option value="$PROJECT_DIR$/src/com/dawid/library/model/Library.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/io/DataReader.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" />
-        <option value="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" />
-        <option value="$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java" />
-        <option value="$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/model/User.java" />
+        <option value="$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java" />
         <option value="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" />
+        <option value="$PROJECT_DIR$/Library.csv" />
+        <option value="$PROJECT_DIR$/src/com/dawid/library/model/Library.java" />
+        <option value="$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java" />
+        <option value="$PROJECT_DIR$/Library_users.csv" />
+        <option value="$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java" />
+        <option value="$PROJECT_DIR$/Library_user.csv" />
       </list>
     </option>
   </component>
@@ -153,13 +184,16 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,7 +287,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +396,8 @@
       <workItem from="1608577602392" duration="2000" />
       <workItem from="1608639034905" duration="332000" />
       <workItem from="1609228826529" duration="5585000" />
-      <workItem from="1609405513561" duration="620000" />
+      <workItem from="1609405513561" duration="1437000" />
+      <workItem from="1609789365117" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="adding new functionality">
       <created>1607725768219</created>
@@ -375,7 +410,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50410000" />
+    <option name="totallyTimeSpent" value="52237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,14 +425,14 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.30738255" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.31208053" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.28322148" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5010526" side_tool="true" weight="0.28322148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37252125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37252125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,16 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalTitleComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/comparator/DateComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -566,13 +591,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Library.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -594,20 +612,6 @@
           <folding>
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -637,50 +641,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="403">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2306#2307#0" expanded="true" />
-            <element signature="e#4275#4276#0" expanded="true" />
-            <element signature="e#4345#4346#0" expanded="true" />
-            <element signature="e#5330#5331#0" expanded="true" />
-            <element signature="e#5382#5383#0" expanded="true" />
-            <element signature="e#6661#6662#0" expanded="true" />
-            <element signature="e#6719#6720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/CsvConvertible.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -696,25 +670,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="442">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java">
+    <entry file="file://$PROJECT_DIR$/Library.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/comparator/AlphabeticalTitleComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library_users.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/app/LibraryControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4354#4355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dawid/library/model/LibraryUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library_user.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
