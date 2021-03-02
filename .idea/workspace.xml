@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6860c67-c182-4a8b-a904-c8383b25236a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/model/Publication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +248,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LibraryApp" />
@@ -303,7 +316,8 @@
       <workItem from="1609228826529" duration="5585000" />
       <workItem from="1609405513561" duration="1437000" />
       <workItem from="1609789365117" duration="2129000" />
-      <workItem from="1614710125810" duration="2070000" />
+      <workItem from="1614710125810" duration="2943000" />
+      <workItem from="1614717204415" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="adding new functionality">
       <created>1607725768219</created>
@@ -326,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614711913346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added streams">
+      <created>1614712468032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614712468032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
