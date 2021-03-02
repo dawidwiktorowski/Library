@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6860c67-c182-4a8b-a904-c8383b25236a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/META-INF/Library - Aplikacja.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl$Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Library - Aplikacja/com/dawid/library/app/LibraryControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/file/CsvFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dawid/library/io/ConsolePrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +303,7 @@
       <workItem from="1609228826529" duration="5585000" />
       <workItem from="1609405513561" duration="1437000" />
       <workItem from="1609789365117" duration="2129000" />
-      <workItem from="1614710125810" duration="1650000" />
+      <workItem from="1614710125810" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="adding new functionality">
       <created>1607725768219</created>
@@ -325,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614710709061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added streams">
+      <created>1614711913346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614711913346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -375,7 +376,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding new functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding new functionality" />
+    <MESSAGE value="added streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="added streams" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/dawid/library/app/LibraryControll.java" />
